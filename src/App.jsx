@@ -1,5 +1,5 @@
 import { useState } from "react";
-import lovesvg from "./assets/cat-talking.gif";
+import lovesvg from "./assets/abc.gif";
 import lovesvg2 from "./assets/happy.gif";
 
 export default function Page() {
@@ -22,16 +22,14 @@ export default function Page() {
       "You might regret this!",
       "Give it another thought!",
       "Are you absolutely certain?",
-      "Jungkook ki kasam say yes!",
       "Have a heart!",
       "Don't be so cold!",
       "Change of heart?",
       "Wouldn't you reconsider?",
-      "ab Abheree didi mil gayi to mujhse yapping nahi?",
-      "You're breaking my heart ,Punam ;(",
+      "You're breaking my heart ,Anisha ;(",
       "Is that your final answer?",
       "You're breaking my heart ;(",
-      "Plsss Punam? :( You're breaking my heart",
+      "Plsss Anisha? :( You're breaking my heart",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -43,7 +41,7 @@ export default function Page() {
         <>
           <img src={lovesvg2}/>
           <div className="text-4xl md:text-6xl font-bold my-4">
-            Ok Yayyyyy!!!
+            Ok Yayyyyy!!!Love you more!! and hs exam er jonno good luck!!
           </div>
         </>
       ) : (
@@ -52,7 +50,7 @@ export default function Page() {
             src={lovesvg}
           />
           <h1 className="text-4xl md:text-6xl my-4 text-center">
-            Will you keep yapping to me forever?
+            hey Anisha,Will you love me forever?
           </h1>
           <div className="flex flex-wrap justify-center gap-2 items-center">
             <button
